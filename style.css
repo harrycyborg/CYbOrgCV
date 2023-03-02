@@ -490,7 +490,7 @@ span{
     }
 }
 
-@media (max-width: 617px){
+@media (max-width: 600px){
 
     .prt-container{
         grid-template-columns:1fr;
