@@ -402,6 +402,9 @@ span{
 }
 
 @media(max-width: 991px){
+    
+    
+    
     .header{
         padding: 2rem 3%;
     }
@@ -470,6 +473,7 @@ span{
 
     .about{
         flex-direction: column-reverse;
+        width: 100%;
     }
 
     .about img{
