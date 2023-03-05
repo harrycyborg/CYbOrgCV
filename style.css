@@ -27,8 +27,8 @@ html{
 body{
     background: var(--bg-color);
     color: var(--text-color);
-    overflow-x:hidden;
-    width:100;
+    width:100%;
+    overflow-x: hidden;
 }
 
 .header{
@@ -49,10 +49,11 @@ body{
 }
 
 .logo{
-    font-size: 2.5rem;
-    color: var(--text-color);
-    font-weight: 600;
-    cursor: pointer;
+    width: 140px;
+}
+
+.navbar{
+    padding-right: 5rem;
 }
 
 .navbar a{
@@ -145,6 +146,7 @@ section{
 }
 
 
+
 .home-content h3:nth-of-type(2){
     margin-bottom: 2rem;
 }
@@ -160,7 +162,7 @@ span{
     border-radius: 4rem;
     box-shadow: 0 0 1rem var(--main-color);
     font-size: 1.6rem;
-    color: var(--second-bg-color);
+    color: var(--bg-color);
     letter-spacing: .1rem;
     font-weight:600;
     transition: .5s ease;
@@ -408,8 +410,7 @@ span{
 
 @media(max-width: 991px){
     
-    
-    
+
     .header{
         padding: 2rem 3%;
     }
