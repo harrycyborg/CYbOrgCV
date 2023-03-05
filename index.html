@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio | cyborg </title>
+    <title> Personal Portfolio | cyborg </title>
     
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
@@ -14,7 +14,7 @@
 <body>
     
     <header class ="header">
-        <a href="#" class="logo">Portfolio</a>
+        <img src="img/logo_white.png" class="logo">
         <i class='bx bx-menu' id="menu-icon"></i>
 
         <nav class="navbar">
@@ -135,7 +135,7 @@
     <section class="contact" id="contact">
         <h2 class="heading">contact <span>Me!</span></h2>
 
-        <form action="#">
+        <form onsubmit="sendemail(); reset(); return false;">
             
             <div class="input-box">
                 <input type="text" placeholder="Full Name">
@@ -173,6 +173,10 @@
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
     <script src="script.js"></script>
+
+    
+    <!-- contact form -->
+    
 
 </body>
 </html>
