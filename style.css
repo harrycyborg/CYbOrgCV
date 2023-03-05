@@ -324,9 +324,11 @@ span{
 
 .contact h2{
     margin-bottom: 3rem;
+    padding-bottom: 3rem;
 }
 
 .contact form{
+    padding-top: 4rem;
     max-width: 70rem;
     margin: 1rem auto;
     text-align: center;
