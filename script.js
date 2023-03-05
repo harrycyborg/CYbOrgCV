@@ -35,8 +35,8 @@ window.onscroll = ()=>{
 
     // remove toggle icon 
 
-    menuIcon.classList.toggle.remove('bx-x');
-    navbar.classList.toggle.remove('active');
+    menuIcon.classList.remove('bx-x');
+    navbar.classList.remove('active');
 
 
 
